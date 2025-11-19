@@ -1,0 +1,49 @@
+.caesar-cipher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: calc(100vh - 281px);
+    width: 100%;
+}
+
+.caesar-cipher__container {
+    padding: 30px 30px 10px 30px !important;
+    border: 1px solid !important;
+    border-radius: 25px !important;
+    width: 1000px;
+}
+
+.caesar-cipher__fields {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.caesar-cipher__alphabet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.caesar-cipher__button-alphabet-visualizer {
+    height: 56px;
+    width: 150px;
+    border-radius: 10px !important;
+}
+
+.caesar-cipher__field {
+    width: 100%;
+    margin-bottom: 20px !important;
+}
+
+.caesar-cipher__field .MuiInputBase-input {
+    font-family: var(--font-family);
+}
+
+.caesar-cipher__field .MuiOutlinedInput-root {
+    border-radius: 10px;
+}

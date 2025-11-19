@@ -1,0 +1,28 @@
+.alphabet-visualizer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.alphabet-visualizer__char {
+    padding: 0 6px;
+    border-radius: 6px;
+    transition: 0.25s;
+}
+
+.alphabet-visualizer__active {
+    background: red;
+    color: white;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+.alphabet-visualizer__result {
+    background: #2e7d32;
+    color: white;
+    font-weight: bold;
+    transform: scale(1.2);
+}

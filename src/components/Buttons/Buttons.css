@@ -1,0 +1,12 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.buttons__item {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px !important;
+}

@@ -1,0 +1,35 @@
+.reset-timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: calc(100vh - 281px);
+    width: 100%;
+}
+
+.reset-timer__progress {
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.reset-timer__time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 48px;
+    right: 0;
+}
+
+.reset-timer__time-label{
+    font-family: var(--font-family);
+}
+
+
+.reset-timer__label {
+    font-family: var(--font-family);
+    margin-top: 20px;
+}
+

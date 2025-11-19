@@ -1,0 +1,9 @@
+.dialog-message__title {
+    font-family: var(--font-family);
+    font-weight: 900 !important;
+    color: red;
+}
+
+.dialog-message__label {
+    font-family: var(--font-family);
+}
