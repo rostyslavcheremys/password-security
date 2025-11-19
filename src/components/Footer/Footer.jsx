@@ -7,7 +7,7 @@ export const Footer = () => {
         <footer className="footer">
             <div className="footer__wrapper">
                 <a className="footer__github"
-                   href="https://github.com/rostyslavcheremys/caesar-cipher"
+                   href="https://github.com/rostyslavcheremys/password-security"
                 >
                     <GitHub className="footer__github-icon"/> GitHub
                 </a>
